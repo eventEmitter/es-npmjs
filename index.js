@@ -1,8 +1,8 @@
 
 
 
-	var   Application 	= require( "./app" )
-		, log 			= require( "ee-log" );
+	var   Application 	= require( "./app" );
+
 
 
 	// print logo
@@ -12,4 +12,4 @@
 
 
 	// start application
-	new Application();
+	var app = new Application();

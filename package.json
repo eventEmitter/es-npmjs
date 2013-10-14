@@ -24,6 +24,7 @@
         , "em-webfiles"             : "*"
         , "ee-types"                : "*"
         , "ee-log"                  : "*"
+        , "ee-project"              : "*"
     }
     , "devDependencies": {}
     , "optionalDependencies": {}

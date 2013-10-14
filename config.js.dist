@@ -1,0 +1,25 @@
+
+
+
+	var Webservice = require( "ee-webservice" );
+	
+	module.exports = {
+		http: {
+			  port: 					12001
+			, interface:				Webservice.Webserver.IF_ANY
+		}
+		, model: {
+			name: 						"infect"
+			, database: 				"infectbackend"
+			, hosts: [ {
+				  host: 				""
+				, port: 				3306
+				, user: 				""
+				, password: 			""
+				, weight: 				1
+				, writable: 			true
+				, maxConnections: 		20
+				} ]
+		}
+		, defaultLanguage: 				"en"
+	};
